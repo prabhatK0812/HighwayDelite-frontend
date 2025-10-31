@@ -1,0 +1,68 @@
+import type { Experience } from "../types/experience";
+
+export const dummyData: Experience[] = [
+  {
+    _id: "1",
+    title: "Kayaking",
+    description: "Curated small-group experience. Certified guide.",
+    image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+    location: "Udupi",
+    price: 999,
+  },
+  {
+    _id: "2",
+    title: "Nandi Hills Sunrise",
+    description: "Enjoy the breathtaking sunrise with tea and snacks.",
+    image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
+    location: "Bangalore",
+    price: 899,
+  },
+  {
+    _id: "3",
+    title: "Coffee Trail",
+    description: "Walk through aromatic coffee plantations.",
+    image: "https://images.unsplash.com/photo-1501785888041-af3ef285b470",
+    location: "Coorg",
+    price: 1299,
+  },
+  {
+    _id: "4",
+    title: "Boat Cruise",
+    description: "Relax with scenic backwaters view.",
+    image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+    location: "Sundarban",
+    price: 999,
+  },
+  {
+    _id: "5",
+    title: "Bungee Jumping",
+    description: "Feel the adrenaline rush!",
+    image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+    location: "Manali",
+    price: 999,
+  },
+  {
+    _id: "6",
+    title: "Camping Night",
+    description: "Enjoy stars and bonfire music.",
+    image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
+    location: "Rishikesh",
+    price: 1199,
+  },
+  {
+    _id: "7",
+    title: "Cycling Trail",
+    description: "Explore scenic mountain roads.",
+    image: "https://images.unsplash.com/photo-1501785888041-af3ef285b470",
+    location: "Ooty",
+    price: 799,
+  },
+  {
+    _id: "8",
+    title: "Jungle Safari",
+    description: "Adventure with wildlife experts.",
+    image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+    location: "Bandipur",
+    price: 1299,
+  },
+];
