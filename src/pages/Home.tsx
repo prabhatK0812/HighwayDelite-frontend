@@ -10,6 +10,7 @@ export default function Home() {
   const [data, setData] = useState<Experience[]>([]);
   const [loading, setLoading] = useState(true);
   const location = useLocation();
+  console.log(import.meta.env.VITE_API_URL);
 
   const searchParams = new URLSearchParams(location.search);
   const query = searchParams.get("search")?.toLowerCase() || "";
