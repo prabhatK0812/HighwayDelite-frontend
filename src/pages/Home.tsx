@@ -18,7 +18,8 @@ export default function Home() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await fetch("http://localhost:5000/api/experiences");
+        // const res = await fetch("http://localhost:5000/api/experiences");
+        const res = await fetch(`${import.meta.env.VITE_API_URL}/api/experiences`);
         const json = await res.json();
         setData(json);
       } catch (err) {
