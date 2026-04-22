@@ -7,7 +7,7 @@ Built with **Vite, TailwindCSS, React Router**, and connected to a **Node + Expr
 
 ---
 
-## ⚡️ Tech Stack
+## ⚡️ Tech Stack :
 
 | Category | Technologies |
 |-----------|--------------|
