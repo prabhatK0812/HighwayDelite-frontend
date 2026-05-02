@@ -33,7 +33,7 @@ Built with **Vite, TailwindCSS, React Router**, and connected to a **Node + Expr
 
 ---
 
-## 🧩 Folder Structure
+## 🧩 Folder Structure :
 
 frontend/
 ├── public/
