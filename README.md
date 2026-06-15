@@ -1,4 +1,4 @@
-# 🚗 HighwayDelite — Frontend ::
+# 🚗 HighwayDelite — Frontend :
 
 ### 🏕️ Explore. Book. Experience the Highways of India.
 
